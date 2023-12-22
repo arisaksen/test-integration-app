@@ -1,0 +1,13 @@
+modules:
+  scheduledTrigger:
+    - key: test-integration-app-scheduled-trigger-example
+      function: trigger
+      interval: hour
+  webtrigger:
+    - key: test-integration-app-webtrigger-example
+      function: trigger
+  function:
+    - key: trigger
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/8cd46e72-1589-4299-8253-f85f59fa8161
